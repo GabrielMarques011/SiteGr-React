@@ -1,9 +1,8 @@
 import React from 'react'
 import { Header } from '../components/header/Header'
 import { Fotter } from '../components/fotter/Fotter'
-
-import '../../src/App.css'
 import minhaLogo from '../img/logo.png';
+import '../../src/App.css'
 
 export const Home = () => {
   return (
