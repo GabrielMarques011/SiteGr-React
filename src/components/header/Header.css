@@ -1,0 +1,26 @@
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 25px;
+}
+
+.header-logo img{
+    width: 170px;
+}
+
+.link a{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #a49cb4;
+}
+
+.link a:hover{
+    color: #49405F;
+    transition: all 0.5s;
+}
+

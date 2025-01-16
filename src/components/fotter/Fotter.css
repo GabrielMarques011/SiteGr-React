@@ -1,0 +1,23 @@
+.fotter{
+    max-width: 100%;
+    background-color: #AC99BE;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    gap: 10px;
+}
+
+.fotter-text{
+    font-size: 15px;
+    gap: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotter-text img{
+    width: 24px;
+    height: 24px;
+}
