@@ -20,7 +20,7 @@ export const Home = () => {
             </div>
           </div>
     
-          <div className="sobre">
+          <div className="sobre" id='sobre'>
             <h2>SOBRE NOSSA EMPRESA</h2>
     
             <p>

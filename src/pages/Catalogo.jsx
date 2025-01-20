@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header } from '../components/header/Header'
+import { Produtos } from '../components/produtos/Produtos'
 
 export const Catalogo = () => {
   return (
@@ -14,7 +15,7 @@ export const Catalogo = () => {
         </div>
       </div>
 
-      
+      <Produtos />
 
     </div>
   )
