@@ -93,6 +93,7 @@ body::-webkit-scrollbar-thumb {
 .endereco-text p{
   margin-top: -8px;
   font-size: 18px;
+  gap: 20px;
 } 
 
 .localizacao{
@@ -144,3 +145,44 @@ body::-webkit-scrollbar-thumb {
   margin-top: 5px;
 }
 
+/* .slide{
+  height: 800px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;  
+}
+
+.slide img{
+  width: 90%;
+} */
+
+
+.slide {
+  padding: 40px;
+  position: relative;
+  width: 100%; /* O container ocupa toda a largura disponível */
+  max-width: 1000px; /* Limita a largura máxima da imagem */
+  margin: 0 auto; /* Centraliza o slide */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slide img {
+  width: 1000px; /* A imagem ocupará toda a largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 2px; /* Arredonda os cantos da imagem (opcional) */
+}
+
+.slide p {
+  position: absolute;
+  top: 50%; /* Centraliza o texto verticalmente */
+  left: 50%; /* Centraliza o texto horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste fino para garantir o centro exato */
+  color: white; /* Cor do texto */
+  font-size: 3vw; /* Usa a largura da tela para definir o tamanho da fonte */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para aumentar a legibilidade */
+  text-align: center; /* Centraliza o texto */
+  padding: 0 20px; /* Adiciona padding para o texto não ficar colado nas bordas */
+}
