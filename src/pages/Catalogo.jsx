@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from '../components/header/Header'
 import { Produtos } from '../components/produtos/Produtos'
+import { Fotter } from '../components/fotter/Fotter'
 
 export const Catalogo = () => {
   return (
@@ -16,6 +17,8 @@ export const Catalogo = () => {
       </div>
 
       <Produtos />
+
+      <Fotter />
 
     </div>
   )

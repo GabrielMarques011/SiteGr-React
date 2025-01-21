@@ -1,5 +1,8 @@
 import React from 'react'
-import bloco from '../../img/bloco.jpg';
+import bloco from '../../img/bloco.jpg'
+import { products } from '../../data.json'
+
+import { ShoppingCart } from "phosphor-react";
 
 import '../../components/produtos/Produtos.css'
 
@@ -7,29 +10,19 @@ export const Produtos = () => {
   return (
     <div className="catalogo-produtos">
 
-        <div className="produto">
-          <img className='img-catalogo' src={bloco} alt="Bloco" />
-          <h2>Produto</h2>
-          <p>10cm x 10cm</p>
-        </div>
+      {products.map((product) => (
 
         <div className="produto">
           <img className='img-catalogo' src={bloco} alt="Bloco" />
-          <h2>Produto</h2>
-          <p>10cm x 10cm</p>
-        </div>
-        
-        <div className="produto">
-          <img className='img-catalogo' src={bloco} alt="Bloco" />
-          <h2>Produto</h2>
-          <p>10cm x 10cm</p>
+          <div className="text-catologo">
+            <h2>{product.title}</h2>
+            <p>{product.descripition}</p>
+            
+            <button><ShoppingCart size={20} color="#fcfcfc" weight="bold" />Adicionar</button>
+          </div>
         </div>
 
-        <div className="produto">
-          <img className='img-catalogo' src={bloco} alt="Bloco" />
-          <h2>Produto</h2>
-          <p>10cm x 10cm</p>
-        </div>
+      ))}
 
     </div>
   )
