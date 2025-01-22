@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
   /* border: 2px solid rgb(255, 255, 255);  */
 }
 
-.inicio{
+.inicio {
   max-width: 100%;
   height: 650px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -33,25 +33,25 @@ body::-webkit-scrollbar-thumb {
   height: 120%;
 } */
 
-.logo-inicio{
+.logo-inicio {
   margin-top: -5px;
   max-width: 100%;
   background-color: #AC99BE;
 }
 
-.box{
+.box {
   width: 50%;
   display: flex;
   justify-content: center;
   background-color: white;
 }
 
-.box img{
+.box img {
   max-width: 85%;
   text-align: center;
 }
 
-.sobre{
+.sobre {
   max-width: 100%;
   max-height: 100%;
   padding: 100px;
@@ -64,15 +64,15 @@ body::-webkit-scrollbar-thumb {
   background-attachment: fixed;
 }
 
-.sobre h2{
+.sobre h2 {
   font-size: 32px;
-} 
+}
 
-.sobre p{
+.sobre p {
   font-size: 21px;
 }
 
-.endereco{
+.endereco {
   max-width: 100%;
   height: 300px;
   display: flex;
@@ -81,22 +81,22 @@ body::-webkit-scrollbar-thumb {
   padding: 50px;
 }
 
-.endereco-text{
+.endereco-text {
   width: 50%;
   color: #49405F;
 }
 
-.endereco-text h2{
+.endereco-text h2 {
   font-size: 30px;
 }
 
-.endereco-text p{
+.endereco-text p {
   margin-top: -8px;
   font-size: 18px;
   gap: 20px;
-} 
+}
 
-.localizacao{
+.localizacao {
   width: 50%;
   height: 100%;
   display: flex;
@@ -104,17 +104,17 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
-.localizacao iframe{
+.localizacao iframe {
   width: 100%;
   height: 100%;
   border: none;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-} 
+}
 
 /* INICIANDO CATALOGO CSS */
 
-.inicio-catalogo{
+.inicio-catalogo {
   background-color: #AC99BE;
   max-width: 100%;
   height: 650px;
@@ -129,60 +129,18 @@ body::-webkit-scrollbar-thumb {
   display: flex;
 }
 
-.box-catalogo{
+.box-catalogo {
   width: 100%;
   display: block;
   background-color: transparent;
 }
 
-.inicio-catalogo h2{
+.inicio-catalogo h2 {
   font-size: 85px;
   margin-bottom: 0;
 }
 
-.inicio-catalogo p{
+.inicio-catalogo p {
   font-size: 35px;
   margin-top: 5px;
-}
-
-/* .slide{
-  height: 800px;
-  padding: 50px;
-  display: flex;
-  justify-content: center;  
-}
-
-.slide img{
-  width: 90%;
-} */
-
-
-.slide {
-  padding: 40px;
-  position: relative;
-  width: 100%; /* O container ocupa toda a largura disponível */
-  max-width: 1000px; /* Limita a largura máxima da imagem */
-  margin: 0 auto; /* Centraliza o slide */
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.slide img {
-  width: 1000px; /* A imagem ocupará toda a largura do container */
-  height: auto; /* Mantém a proporção da imagem */
-  border-radius: 2px; /* Arredonda os cantos da imagem (opcional) */
-}
-
-.slide p {
-  position: absolute;
-  top: 50%; /* Centraliza o texto verticalmente */
-  left: 50%; /* Centraliza o texto horizontalmente */
-  transform: translate(-50%, -50%); /* Ajuste fino para garantir o centro exato */
-  color: white; /* Cor do texto */
-  font-size: 3vw; /* Usa a largura da tela para definir o tamanho da fonte */
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para aumentar a legibilidade */
-  text-align: center; /* Centraliza o texto */
-  padding: 0 20px; /* Adiciona padding para o texto não ficar colado nas bordas */
 }

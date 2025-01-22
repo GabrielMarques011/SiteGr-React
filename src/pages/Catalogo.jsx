@@ -2,10 +2,18 @@ import React from 'react'
 import { Header } from '../components/header/Header'
 import { Produtos } from '../components/produtos/Produtos'
 import { Fotter } from '../components/fotter/Fotter'
-
-import slide  from '../img/entregaEncomenda.jpg'
+import { Carrossel } from '../components/carrossel/Carrossel'
 
 export const Catalogo = () => {
+
+  const slides = [
+    '../../src/img/entregaEncomenda.jpg',
+    '../../src/img/entrega.jpg',
+    '../../src/img/entregaEncomenda.jpg',
+    '../../src/img/entregaEncomenda.jpg',
+    '../../src/img/entregaEncomenda.jpg',
+  ];
+
   return (
     <div className="catalogo">
 
@@ -18,10 +26,10 @@ export const Catalogo = () => {
         </div>
       </div>
 
-      <div className="slide">
-        <img src={slide} alt="img" />
-        <p>Produtos mais vendidos</p>
-      </div>
+      <Carrossel slides={slides} />
+
+      <p className='description-principal'>Lista de Produtos</p>
+      <p className='description'>Adicione os itens no carrinho e faça seu orçamento</p>
 
       <Produtos />
 
