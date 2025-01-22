@@ -1,5 +1,5 @@
 import './App.css'
-import { Router } from './router'
+import { Router } from './Router'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
