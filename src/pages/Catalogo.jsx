@@ -7,11 +7,11 @@ import { Carrossel } from '../components/carrossel/Carrossel'
 export const Catalogo = () => {
 
   const slides = [
-    '../../src/img/entregaEncomenda.jpg',
-    '../../src/img/entrega.jpg',
-    '../../src/img/entregaEncomenda.jpg',
-    '../../src/img/entregaEncomenda.jpg',
-    '../../src/img/entregaEncomenda.jpg',
+    '../src/img/entregaEncomenda.jpg',
+    '../src/img/entrega.jpg',
+    '../src/img/entregaEncomenda.jpg',
+    '../src/img/entregaEncomenda.jpg',
+    '../src/img/entregaEncomenda.jpg',
   ];
 
   return (
