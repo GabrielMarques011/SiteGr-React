@@ -1,0 +1,30 @@
+.lista-compra{
+    background-color: #8374a8;
+    padding: 12px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.lista-compra:hover{
+    cursor: pointer;
+    background-color: #9687b9;
+    transition: all 0.3s;
+}
+
+.cart-status{
+    background-color: #48376e;
+    color: white;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

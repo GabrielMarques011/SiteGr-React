@@ -34,19 +34,3 @@
     color: #49405F;
     transition: all 0.5s;
 }
-
-.lista-compra{
-    background-color: #8374a8;
-    padding: 12px;
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    border-radius: 3px;
-    transition: all 0.3s;
-}
-
-.lista-compra:hover{
-    cursor: pointer;
-    background-color: #9687b9;
-    transition: all 0.3s;
-}

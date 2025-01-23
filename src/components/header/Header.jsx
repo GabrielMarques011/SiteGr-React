@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Header.css'
 import minhaImagem from '../../img/image.png';
-import { ShoppingBag, ShoppingCart } from 'phosphor-react';
+import { Cart } from '../cart/Cart';
 
 
 
@@ -21,9 +21,7 @@ export const Header = () => {
           <NavLink to="/catalogo">Catalogo</NavLink>
         </div>
 
-        <div className="lista-compra">
-          <ShoppingCart size={20} color="white" weight="bold" />
-        </div>
+        <NavLink to="/compra"><Cart /></NavLink>
 
       </div>
 
